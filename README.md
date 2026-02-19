@@ -10,6 +10,7 @@ Ideal for research scientist/intern coding interviews.
 
 | Problem | Title                                                 | Link                                                                    | Solution                                                                      |
 | ------- | ----------------------------------------------------- | ----------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| 566     | Dot Product of Two Vectors                                    | [LeetCode](https://leetcode.com/problems/dot-product-of-two-sparse-vectors)           | [Solution](https://gist.github.com/ddidacus/1a27ed5c6221fc9299551dd7c121684d) |
 | 566     | Reshape the Matrix                                    | [LeetCode](https://leetcode.com/problems/reshape-the-matrix/)           | [Solution](https://gist.github.com/ddidacus/e0579e0a3b7fe4f70bd7c08586b0bd81) |
 | 311     | Sparse Matrix Multiplication                          | [LeetCode](https://leetcode.com/problems/sparse-matrix-multiplication/) | [Solution](https://gist.github.com/ddidacus/bbde86d3e16300049e5a42b56f8e65f8) |
 | —       | Implement 2D Convolution / Max Pooling (from scratch) | —                                                                       | [Solution](https://gist.github.com/ddidacus/7eeb811be3f70803bde50f9cb4a1372b) |
