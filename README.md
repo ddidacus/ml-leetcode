@@ -54,5 +54,6 @@ Ideal for research scientist/intern coding interviews.
 | 146     | LRU Cache                               | [LeetCode](https://leetcode.com/problems/lru-cache/)                               | [Solution](https://gist.github.com/ddidacus/4d80ee4b490a1f3c13e804796761178e)        |
 | 207     | Course Schedule                         | [LeetCode](https://leetcode.com/problems/course-schedule/)                         | —        |
 | 236     | Lowest Common Ancestor of a Binary Tree | [LeetCode](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | —        |
+| 138     | Copy Linked List with Random Pointers | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer) | [Solution](https://gist.github.com/ddidacus/83f54b0092601ab6e7f1cf8cc3d52135)        |
 
 ---
