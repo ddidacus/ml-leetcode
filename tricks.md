@@ -11,6 +11,7 @@
 		curr.next = prev
 		prev = curr
 		curr = next_node
+	return prev
 ```
 - Check for cycles in a linked list:
 ```python
