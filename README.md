@@ -31,8 +31,8 @@ Ideal for research scientist/intern coding interviews.
 
 | Problem | Title                                          | Link                                                                                      | Solution |
 | ------- | ---------------------------------------------- | ----------------------------------------------------------------------------------------- | -------- |
-| 643     | Maximum Average Subarray I                     | [LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/)                     | —        |
-| 3       | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | —        |
+| 643     | Maximum Average Subarray I                     | [LeetCode](https://leetcode.com/problems/maximum-average-subarray-i/)                     | [Solution](https://gist.github.com/ddidacus/e5893d8b8d647783614e68abc9039bd5)        |
+| 3       | Longest Substring Without Repeating Characters | [LeetCode](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Solution](https://gist.github.com/ddidacus/248d3b27e632e17625547c6da5220c93)        |
 | 76      | Minimum Window Substring                       | [LeetCode](https://leetcode.com/problems/minimum-window-substring/)                       | —        |
 
 ---
