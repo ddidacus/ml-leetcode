@@ -42,7 +42,7 @@ Ideal for research scientist/intern coding interviews.
 | Problem | Title                        | Link                                                                  | Solution |
 | ------- | ---------------------------- | --------------------------------------------------------------------- | -------- |
 | 208     | Implement Trie (Prefix Tree) | [LeetCode](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Solution](http://gist.github.com/ddidacus/e5f070b1d4e267e9f4f4fa70b292817a)        |
-| 347     | Top K Frequent Elements      | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/)    | —        |
+| 347     | Top K Frequent Elements      | [LeetCode](https://leetcode.com/problems/top-k-frequent-elements/)    | [Solution](https://gist.github.com/ddidacus/44d3fa3d85e6b327936fb3562e82de00)        |
 | 692     | Top K Frequent Words         | [LeetCode](https://leetcode.com/problems/top-k-frequent-words/)       | —        |
 
 ---
