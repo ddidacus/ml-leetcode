@@ -1,5 +1,19 @@
 ## Tricks
 
+### Arrays
+- Binary search:
+```python
+	def binsearch(arr, tgt):
+		low = 0
+		high = len(arr) - 1
+		while low <= high:
+			mid = low + (high-low) // 2
+			if tgt == arr[mid] : return mid
+			elif tgt < arr[mid]: high = mid - 1
+			else: low = mid + 1
+		return -1
+```
+
 ### Two Pointers
 - same start (sliding window)
 ```python
