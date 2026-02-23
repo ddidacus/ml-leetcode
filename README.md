@@ -69,4 +69,14 @@ Ideal for research scientist/intern coding interviews.
 
 ---
 
+## ML Algorithms
+
+| Problem | Title                                   | Link                                                                               | Solution |
+| ------- | --------------------------------------- | ---------------------------------------------------------------------------------- | -------- |
+| -     | Implement KNN                              | -                               | [Solution](https://gist.github.com/ddidacus/945914bb4f151a31ec21bcd20ff6c5c1)
+
+---
+
+
+
 
