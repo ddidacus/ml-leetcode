@@ -57,3 +57,16 @@ Ideal for research scientist/intern coding interviews.
 | 138     | Copy Linked List with Random Pointers | [LeetCode](https://leetcode.com/problems/copy-list-with-random-pointer) | [Solution](https://gist.github.com/ddidacus/83f54b0092601ab6e7f1cf8cc3d52135)        |
 
 ---
+
+## Transformers
+
+| Problem | Title                                   | Link                                                                               | Solution |
+| ------- | --------------------------------------- | ---------------------------------------------------------------------------------- | -------- |
+| -     | Implement a MLP                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
+| -     | Implement Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
+| -     | Implement Multi-Head Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
+| -     | Implement Grouped-Query Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
+
+---
+
+
