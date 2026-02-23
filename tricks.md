@@ -13,6 +13,31 @@
 			else: low = mid + 1
 		return -1
 ```
+- Sparse dot product (efficient):
+```python
+	def sparse_dotproduct(v1, v2):
+	    def compress(v):
+	        cv = []
+	        for i in range(len(v)):
+	            if v[i] != 0:
+	                cv.append((i, v[i]))
+	        return sorted(cv, key = lambda x: x[0])
+	    cv1 = compress(v1)
+	    cv2 = compress(v2)
+	    p1 = 0
+	    p2 = 0
+	    res = 0
+	    while p1 < len(cv1) and p2 < len(cv2):
+	        if cv1[p1][0] == cv2[p2][0]:
+	            res += cv1[p1][1] * cv2[p2][1]
+	            p1 += 1
+	            p2 += 1
+	        elif cv1[p1][0] < cv2[p2][0]:
+	            p1 += 1
+	        else:
+	            p2 += 1
+	    return res
+```
 
 ### Two Pointers
 - same start (sliding window)
