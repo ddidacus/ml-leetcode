@@ -154,3 +154,48 @@
 				stack.append(child)
 ```
 	
+### Matrices
+- standard matrix multiplication:
+```python
+	def matmul(mat1, mat2):
+	    n1, m1 = len(mat1), len(mat1[0])
+	    n2, m2 = len(mat2), len(mat2[0])
+	    assert m1 == n2
+	    res = [[0 for _ in range(m2)] for _ in range(n1)]
+	    for i in range(n1):
+	        for k in range(m2):
+	            for j in range(m1):
+	                res[i][k] += mat1[i][j] * mat2[j][k]
+	    return res
+```
+- efficient matrix multiplication for sparse matrices:
+```python
+	def sparse_matmul(mat1, mat2):
+	    n1, m1 = len(mat1), len(mat1[0])
+	    n2, m2 = len(mat2), len(mat2[0])
+	    assert m1 == n2
+	    rm1 = []
+	    rm2 = []
+	    def compress(mat, rows):
+	        n, m = len(mat), len(mat[0])
+	        for i in range(n):
+	            row = []
+	            for j in range(m):
+	                if mat[i][j] != 0:
+	                    row.append((mat[i][j], j))
+	            rows.append(row)
+	        return rows
+	    rm1 = compress(mat1, rm1)
+	    rm2 = compress(mat2, rm2)
+	    res = [[0 for _ in range(m2)] for _ in range(n1)]
+	    # for each row in mat1
+	    for r1 in range(len(rm1)):
+	        # for each nonzero element
+	        for el1 in rm1[r1]:
+	            r2 = el1[1]
+	            # col -> for each element in col-th row
+	            # multiply and store in row1, col2
+	            for el2 in rm2[r2]:
+	                res[r1][el2[1]] += el1[0] * el2[0]
+	    return res
+```
