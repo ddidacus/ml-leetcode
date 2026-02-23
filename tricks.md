@@ -119,3 +119,38 @@
 	heapq.heapify(maxHeap) # largest will be negated at the top
 	return -heapq.heappop(maxHeap)
 ```
+
+### Trees
+- Diameter of a binary tree: longest path between any two nodes
+```python
+	self.maxDiameter = 0
+	def maxLen(node):
+		if not node.left and not node.right: return 1
+		if node.left: left = maxLen(node.left)
+		else: left = 0
+		if node.right: right = maxLen(node.right)
+		else: right = 0
+		self.maxDiameter = max(self.maxDiameter, left+right)
+		return 1 + max(left, right)
+	maxLen(root)
+	return self.maxDiameter
+```
+- Depth-First Search:
+```python
+	def dfs(node):
+		if not node: return
+		# evaluate node.val
+		for child in node.children:
+			dfs(node.child)
+	dfs(root)
+```
+- Breadth-First Search:
+```python
+	def bfs(node):
+		stack = [node]
+		while len(stack):
+			curr = stack.pop(0)
+			for child in curr.children:
+				stack.append(child)
+```
+	
