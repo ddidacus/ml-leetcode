@@ -66,6 +66,7 @@ Ideal for research scientist/intern coding interviews.
 | -     | Implement Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
 | -     | Implement Multi-Head Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
 | -     | Implement Grouped-Query Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
+| -     | Implement a Decoder-Only Transformer                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
 
 ---
 
