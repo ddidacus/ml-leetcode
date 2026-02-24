@@ -67,10 +67,10 @@ Ideal for research scientist/intern coding interviews.
 | -     | Implement Multi-Head Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
 | -     | Implement Grouped-Query Attention                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
 | -     | Implement a Decoder-Only Transformer                              | -                               | [Solution](https://gist.github.com/ddidacus/20d271bfaebbf983d191ff62e9c536ec)
+| -     | Implement a Mixture of Experts                              | -                               | [Solution](https://gist.github.com/ddidacus/ab80d9a53f0d7cb0579a70a6d11b13c4)
 | -     | Implement LLM sampling strategies                              | -                               | [Solution](https://gist.github.com/ddidacus/342c5098da68a1703b10bce1b2df8719)
 | -     | Implement Softmax variants                              | -                               | [Solution](https://gist.github.com/ddidacus/2dcbe1bb33286ea7b240cdfcfbb42601)
 | -     | Implement Various LLM losses                              | -                               | [Solution](https://gist.github.com/ddidacus/1280b37f81c03d64fb5a4ec354d2177f)
-
 
 ---
 
