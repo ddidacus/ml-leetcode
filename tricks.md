@@ -38,6 +38,30 @@
 	            p2 += 1
 	    return res
 ```
+- Reservoir sampling
+```python
+	def reservoir_sampling(nums, k = 1):
+	    assert k <= len(nums)
+	    reservoir = [nums[i] for i in range(k)]
+	    for i, n in enumerate(nums):
+	        j = random.randint(0, i)
+	        # probability k/i 
+	        if j < k:
+	            reservoir[j] = n
+	    return reservoir
+	
+	def k_one_reservoir_sampling(nums):
+	    assert len(nums)
+	    count = 0.0
+	    chosen = nums[0]
+	    for n in nums:
+	        count += 1
+	        # 1.0, 0.5, 0.3, 0.25, 0.2, 0.16...
+	        # with probability 1/i, replace the number in the reserve
+	        if random.random() < 1 / count:
+	            chosen = n
+	    return chosen
+```
 
 ### Two Pointers
 - same start (sliding window)
