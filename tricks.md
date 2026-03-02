@@ -62,6 +62,21 @@
 	            chosen = n
 	    return chosen
 ```
+- Prefix sums
+```python
+	def subarraySum(self, nums, k):
+		mem = {0:1}
+		count_sumK = 0
+		prefix_sum = 0
+		# sum(nums[i:j]) = prefix_sum[j] - prefix_sum[i-1]
+		# check for: prefix_sum[i-1] = prefix_sum[j] - k
+		for i, n in enumerate(nums):
+			prefix_sum += n # prefix_sum[j]
+			count_sumK += mem.get(prefix_sum-k, 0) # query prefix_sum[i - 1]
+			mem.setdefault(prefix_sum, 0)
+			mem[prefix_sum] += 1
+		return count_sumK
+```
 
 ### Two Pointers
 - same start (sliding window)
