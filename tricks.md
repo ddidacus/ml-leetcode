@@ -62,7 +62,7 @@
 	            chosen = n
 	    return chosen
 ```
-- Prefix sums
+- Contiguous subarray sum with prefix sums
 ```python
 	def subarraySum(self, nums, k):
 		mem = {0:1}
